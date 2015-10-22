@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4873BBA81BD90E810065F960 /* UITableViewCell+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4873BBA71BD90E810065F960 /* UITableViewCell+Mask.m */; settings = {ASSET_TAGS = (); }; };
 		48C5AC3C1BD667CF0022C68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5AC3B1BD667CF0022C68B /* main.m */; };
 		48C5AC3F1BD667CF0022C68B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5AC3E1BD667CF0022C68B /* AppDelegate.m */; };
 		48C5AC421BD667CF0022C68B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5AC411BD667CF0022C68B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4873BBA61BD90E810065F960 /* UITableViewCell+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Mask.h"; sourceTree = "<group>"; };
+		4873BBA71BD90E810065F960 /* UITableViewCell+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Mask.m"; sourceTree = "<group>"; };
 		48C5AC371BD667CF0022C68B /* LMTableViewHeaderMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMTableViewHeaderMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C5AC3B1BD667CF0022C68B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48C5AC3D1BD667CF0022C68B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				48C5AC481BD667CF0022C68B /* LaunchScreen.storyboard */,
 				48C5AC4B1BD667CF0022C68B /* Info.plist */,
 				48C5AC3A1BD667CF0022C68B /* Supporting Files */,
+				4873BBA61BD90E810065F960 /* UITableViewCell+Mask.h */,
+				4873BBA71BD90E810065F960 /* UITableViewCell+Mask.m */,
 			);
 			path = LMTableViewHeaderMask;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C5AC421BD667CF0022C68B /* ViewController.m in Sources */,
+				4873BBA81BD90E810065F960 /* UITableViewCell+Mask.m in Sources */,
 				48C5AC3F1BD667CF0022C68B /* AppDelegate.m in Sources */,
 				48C5AC3C1BD667CF0022C68B /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				48C5AC501BD667CF0022C68B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
